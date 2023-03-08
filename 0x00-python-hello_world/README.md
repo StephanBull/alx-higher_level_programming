@@ -1,1 +1,1 @@
-This file contains a description of the all the tasks in this project 0x00-python programming
+This file contains the description of the tasks IN 0x00 Hello World project
