@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+"""Defining a new Rectangle class."""
 
 
 class Rectangle:
+    """createing a rectangle."""
+
     def __init__(self, width=0, height=0):
+        """ creating instances of the rectangle"""
         self.width = width
         self.height = height
 
@@ -31,9 +35,11 @@ class Rectangle:
         self.__height = value
 
     def area(self):
+        """ returns the area of the rectangle"""
         return self.__width * self.__height
 
     def perimeter(self):
+        """ returns the perimeter of the rect"""
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
@@ -48,6 +54,6 @@ class Rectangle:
 
     def __repr__(self):
         return "Rectangle({}, {})".format(self.__width, self.__height)
-    
+
     def __del__(self):
         print("Bye rectangle...")

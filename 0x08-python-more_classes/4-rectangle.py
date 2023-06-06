@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
+    """ creates a rectangle"""
+
     def __init__(self, width=0, height=0):
+        """ creates instances of the rectangle"""
         self.width = width
         self.height = height
 
@@ -48,7 +52,7 @@ class Rectangle:
 
     def __repr__(self):
         return "Rectangle({}, {})".format(self.__width, self.__height)
-    
+
     def __del__(self):
-        return 
+        return
         print("Bye rectangle...")
