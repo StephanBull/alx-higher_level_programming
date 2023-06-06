@@ -22,8 +22,8 @@ class Rectangle:
         Rectangle.number_of_instances = Rectangle.number_of_instances + 1
 
     @property
-    """Get/set the width of the Rectangle."""
     def width(self):
+        """Get/set the width of the rectangle."""
         return self.__width
 
     @width.setter
