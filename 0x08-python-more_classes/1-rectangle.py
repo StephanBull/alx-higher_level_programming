@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" defining a class rectangle"""
 
 
 class Rectangle:
@@ -11,6 +12,7 @@ class Rectangle:
 
     @property
     def width(self):
+        """ gets the width of the instance"""
         return self.__width
 
     @width.setter
